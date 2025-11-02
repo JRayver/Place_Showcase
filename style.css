@@ -40,6 +40,13 @@ body {
     font-weight: 700;
 }
 
+.lead {
+    font-family: 'Inter', sans-serif !important;
+    color: #ffffffcc;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
 .btn {
     background-color: #ffffffcc;
     color: #333;
