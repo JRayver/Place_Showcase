@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" style="color: rgb(102, 196, 255);" href="#">Germany Showcase</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#places">Places</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="home-section" id="home">
+        <div class="container">
+            <p class="lead mb-2 text-uppercase fw-light">Welcome to</p>
+            <h1 class="display-1 fw-bold text-white mb-4" style="font-family: 'Playfair Display', serif;">Germany
+            </h1>
+            <a href="#about" class="btn fw-bold px-5">Learn More</a>
+        </div>
+    </header>
+
+    <div class="container my-5 py-5" id="about">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h2 class="display-title display-3 display-lg-2 mb-3">About<br>Germany</h2>
+                <p class="lead">Germany is a captivating land of contrasts, effortlessly blending centuries of
+                    history with stunning natural beauty. Travelers can explore the vibrant energy and historical depth of
+                    cities like Berlin and Munich, stand in awe of Gothic masterpieces like the Cologne Cathedral,
+                    or witness the sheer fantasy of Neuschwanstein Castle.
+                </p>
+                <p>Beyond the cities, you can hike the mystical trails of the Black Forest, cruise the castled banks
+                    of the Rhine Valley, or indulge in world-class beer and cuisine at an authentic local festival.
+                    Germany promises a journey that is as richly cultural as it is visually rewarding.
+                </p>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="summ-photo.webp"
+                    class="img-fluid rounded-3 shadow-lg" alt="Scenic view of a lake and mountains in Germany.">
+            </div>
+        </div>
+    </div>
+
+    <section id="places" class="container">
+        <h2 class="text-center mb-3 display-title display-3">Places</h2>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1.jpg" class="d-block w-100" alt="p1">
+                    <div class="carousel-caption">
+                        <h3>The old town of Heidelberg</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="2.jpg" class="d-block w-100" alt="p2">
+                    <div class="carousel-caption">
+                        <h3>Reichsburg Cochem</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="3.jpg" class="d-block w-100" alt="p3">
+                    <div class="carousel-caption">
+                        <h3>Rheinstein Castle</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="4.webp" class="d-block w-100" alt="p4">
+                    <div class="carousel-caption">
+                        <h3>Rothenburg ob der Tauber</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="5.jpg" class="d-block w-100" alt="p5">
+                    <div class="carousel-caption">
+                        <h3>Castle Eltz</h3>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="6.jpg" class="d-block w-100" alt="p6">
+                    <div class="carousel-caption">
+                        <h3>Neuschwanstein Castle</h3>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <footer class="text-center py-4" style="background-color:#53a4de ; color:white; margin-top: 60px;">
+        <p>&copy; 2025 Germany Showcase.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var carouselExampleFade = document.querySelector('#carouselExampleFade');
+            var carousel = new bootstrap.Carousel(carouselExampleFade, {
+                interval: 2000,
+                pause: 'hover'
+            });
+        });
+    </script>
+</body>
+
+</html>
